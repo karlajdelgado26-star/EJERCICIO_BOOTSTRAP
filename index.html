@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <!--Menú de navegación-->
+
+     <!--hace que el menú funcione-->
+    <nav class="navbar navbar-expand-md bg-body-tertiary">   <!--md-->
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Rincón de Ositos 🌷🧸</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+        <!--como tal el menú-->
+      <ul class="navbar-nav ms-auto">  <!--ms auto -->
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">🏠 Madriguera</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">📚 Ositos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">🌷 Rincón</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-disabled="true">💌 Cartita</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!--carrusel-->
+  <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="max-height: 700px;">
+      <img src="imagenes/icono1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" style="max-height: 700px;">
+      <img src="imagenes/icono2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" style="max-height: 700px;">
+      <img src="imagenes/icono3.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+ 
+ <!--Tarjetas-->
+ <!--1.contenedor, 2.fila 3.columna-->
+<div class="container mt-5 d-none d-md-block">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card border-0">
+             <img src="imagenes/icono4.png" class="card-img-top rounded-circle" alt="...">
+             <div class="card-body">
+             <h5 class="card-title"> 🧸 OSITO SABIO</h5>
+             <p class="card-text">Este osito ama aprender y explicar las cosas con calma. Le gusta leer, investigar y luego contarlo todo con palabras simples y cariñosas. Aquí encuentras consejos, aprendizajes y truquitos para crecer con ternura.</p>
+           <div style="text-align: center;">
+  <a href="#" class="btn" 
+     style="background-color: #ffd86b; 
+            color: black; 
+            border-radius: 25px; 
+            border: none; 
+            padding: 10px 20px;">
+     Aprender juntitos
+  </a>
+</div>
+
+              </div>       
+           </div>
+        </div>
+
+         <div class="col-md-4">
+            <div class="card border-0">
+             <img src="imagenes/icono5.png" class="card-img-top rounded-circle" alt="...">
+             <div class="card-body">
+             <h5 class="card-title">🎨 OSITO CREATIVO</h5>
+             <p class="card-text">Entre pinceles, colores y mucha imaginación, este osito convierte cualquier idea en algo mágico. Aquí podrás ver manualidades, dibujitos, frases ilustradas y pequeños retos creativos que inspiran a jugar con la fantasía.</p>
+               <div style="text-align: center;">
+  <a href="#" class="btn" 
+     style="background-color: #ffd86b; 
+            color: black; 
+            border-radius: 25px; 
+            border: none; 
+            padding: 10px 20px;">
+     Jugar con colores
+  </a>
+</div>
+              </div>
+           </div>
+        </div>
+
+          <div class="col-md-4">    
+            <div class="card border-0">
+             <img src="imagenes/icono6.png" class="card-img-top rounded-circle" alt="...">
+             <div class="card-body">
+             <h5 class="card-title">🌙 OSITO SOÑADOR</h5>
+             <p class="card-text">Este osito vive entre nubes y estrellas, siempre con un pensamiento positivo y brillante para regalar. Aquí encontrarás frases suaves, mensajes motivadores y recordatorios tiernos de que los sueños siempre valen la pena.</p>
+                  <div style="text-align: center;">
+  <a href="#" class="btn" 
+     style="background-color: #ffd86b; 
+            color: black; 
+            border-radius: 25px; 
+            border: none; 
+            padding: 10px 20px;">
+     Soñar bonito
+  </a>
+</div>
+              </div>
+           </div>
+        </div>
+
+
+    </div>
+</div>
+
+  <!--tarjetas horizontales-->
+  <div class="container mt-5">
+    <div class="card mb-3">
+  <div class="row g-0">
+    <div class="col-md-5">
+      <img src="imagenes/icono7.png" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-7">
+      <div class="card-body">
+        <h2 class="card-title">✨ La Madriguera de Ositos ✨</h2>
+        <p class="card-text"> Cuentan las estrellitas que, en un rincón escondido del cielo, nació un sueño muy tierno: un lugar donde aprender y crecer fuera tan suave como un abrazo de osito.
+Así apareció esta madriguera, un espacio donde la dulzura se mezcla con la imaginación y donde cada día tiene un toque de magia. Aquí viven tres ositos especiales: uno sabio que guía con sus palabras, otro creativo que pinta de colores cualquier idea, y un soñador que recuerda que nunca es tarde para mirar al cielo y pedir un deseo.
+
+Pero este lugar no es solo de ellos… también es tuyo. Porque cada persona que llega trae consigo un pedacito de luz que hace más cálida la madriguera.
+
+Y yo, Karla, solo soy la guardiana de este rincón. Mi ilusión es compartir contigo momentos bonitos, aprendizajes tiernos y recordarte que, pase lo que pase, siempre habrá un osito dispuesto a regalarte una sonrisa.</p>
+       <div class="text-center">
+  <a href="#" class="btn" 
+     style="background-color: #ffd86b; 
+            color: black; 
+            border-radius: 25px; 
+            border: none; 
+            padding: 10px 20px;">
+     Entrar a la madriguera
+  </a>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="card mb-3">
+  <div class="row g-0">
+   
+    <div class="col-md-7">
+      <div class="card-body">
+        <h2 class="card-title">🧸 El abrazo de los ositos 🧸</h2>
+        <p class="card-text">Dicen que un abrazo tiene la magia de calmar, de dar calorcito al alma y de recordarnos que no estamos solos.
+En esta madriguera, cada osito guarda un abrazo único y especial para ti.
+El Osito Sabio envuelve con palabras dulces que reconfortan cuando hay dudas o miedos.
+El Osito Creativo abraza con colores y juegos que iluminan los días nublados, recordándote que siempre hay belleza en lo sencillo.
+Y el Osito Soñador, con sus nubes y estrellas, te rodea con esperanza y ternura, recordándote que cada sueño merece ser cuidado con cariño.
+
+Aquí no solo encontrarás abrazos de ositos, sino también un espacio donde sentirte acompañado, comprendido y querido, porque en esta madriguera siempre habrá lugar para ti y para tu corazón.</p>
+       <div class="text-center">
+  <a href="#" class="btn" 
+     style="background-color: #ffd86b; 
+            color: black; 
+            border-radius: 25px; 
+            border: none; 
+            padding: 10px 20px;">
+    Recibir un abrazo
+  </a>
+</div>
+      </div>
+    </div>
+     <div class="col-md-5">
+      <img src="imagenes/icono8.png" class="img-fluid rounded-start" alt="...">
+    </div>
+  </div>
+</div>
+  </div>
+<!--footer-->
+<footer>
+  <div class="container-fluid p-5 text-center" 
+       style="background-color: #ffe28a; color: black;">
+    <div class="row">
+      <p>
+        “Gracias por visitar esta madriguera mágica. Aquí siempre habrá un osito 
+        esperándote con dulzura, palabras bonitas y un abrazo para el corazón. 
+        Pase lo que pase, recuerda que nunca caminas sola.”
+      </p>
+      <div class="col">
+        <a href="#inicio" class="text-decoration-none" style="color: black;">🏠 Volver a la madriguera</a>
+      </div>
+      <div class="col">
+        <a href="#ositos" class="text-decoration-none" style="color: black;"> 🧸 Conoce a los ositos</a>
+      </div> 
+      <div class="col">
+        <a href="#creativo" class="text-decoration-none" style="color: black;">🎨 Rincón de colores</a>
+      </div>
+      <div class="col">
+        <a href="#contacto" class="text-decoration-none" style="color: black;">💌 Cartita para mí</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!--función del scrpt-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
